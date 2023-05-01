@@ -6,10 +6,10 @@ pub mod ftp;
 pub use self::ftp::FtpStream;
 pub use self::types::FtpError;
 
-// #[macro_use]
-// extern crate lazy_static;
-// extern crate chrono;
-// extern crate regex;
+#[macro_use]
+extern crate lazy_static;
+extern crate chrono;
+extern crate regex;
 
 pub type Result<T> = std::result::Result<T, FtpError>;
 
