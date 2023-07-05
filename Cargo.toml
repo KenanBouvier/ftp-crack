@@ -10,3 +10,4 @@ chrono = "0.2.25"
 lazy_static = "0.1.16"
 regex = "0.1.80"
 openssl = { version = "0.10", optional = true }
+colored = "2.0.0"
